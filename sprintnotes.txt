@@ -1,0 +1,48 @@
+"BY NO MEANS COMPREHENSIVE" jcsokoll
+ 
+api > tensorflow, keras 
+tools & terminology
+	
+types of architectures, 
+	 components
+	how to piece together
+ 
+
+foundational components of a neural network
+implement a perceptron from scratch in python
+
+threshold -> fire, activation
+neuron -> node -> take in signal, pass out signal value
+
+
+single node architecture
+	networks are multinode
+
+INPUT NODE for each FEATURE of dataset
+OUTPUT NODE target
+HIDDEN we don't inspect the values
+
+different architecture for different problems
+	PERCEPTRON is the simplest
+		NO HIDDEN LAYERS
+		 only INPUT and OUTPUT
+	FF FEED FORWARD/multilayer perceptron
+	DFF DEEP FEED FORWARD
+	RNN RECURRENT NEURAL NETWORK
+	LSTM LONG/SHORT TERM MEMORY
+	AE AUTO-ENCODERS
+next wk: GAN GENERAL ADVERSARIAL
+	CNN CONVOLUTIONAL NEURAL NETWORKS
+
+DENSE/FULLY-CONNECTED nodes input flows from one-to-all
+
+input(visible), hidden, output layers
+hidden -> inaccessible in training
+deep -> lots of hidden layers
+OUTPUT -> vector values that the model is supposed to predict > can vary
+	REGRESSION -> single output node with no activation function
+			because what we want is an UNBOUNDED CONTINOUS VALUE
+	BINARY CLASSIFICATION -> single output WITH ACTIVATION FUNCT (sigmoid etc)
+	MULTICLASS CLASSIFICATION -> output per class; probably SOFTMAX activation funct
+
+architectures with no output (non-FF-type) -> for feature extraction or reccommendation
