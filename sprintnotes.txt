@@ -46,3 +46,7 @@ OUTPUT -> vector values that the model is supposed to predict > can vary
 	MULTICLASS CLASSIFICATION -> output per class; probably SOFTMAX activation funct
 
 architectures with no output (non-FF-type) -> for feature extraction or reccommendation
+
+bias > initially we hardcoded, arbitrary;
+	later in keras/tf, value is always 1, weight associated *garble* updated via backprop
+ACTIVATION FUNCT - step was in original perceptron; relu is most common today
