@@ -50,3 +50,22 @@ architectures with no output (non-FF-type) -> for feature extraction or reccomme
 bias > initially we hardcoded, arbitrary;
 	later in keras/tf, value is always 1, weight associated *garble* updated via backprop
 ACTIVATION FUNCT - step was in original perceptron; relu is most common today
+
+
+
+neural network
+perceptron
+feed forward
+nodes
+layers
+input, hidden, output
+bias
+epoch
+backpropagation
+multilayer perceptron
+neuron - simple computational unit; performs weighted sum on incoming signals, 
+	adds a threshold or bias term to this value to yield a net-input, 
+	and maps this last value through an activation function to compute it's own activation
+	- some neurons (feedback, hopfield networks) retain portion of previous activation
+threshold
+weight
