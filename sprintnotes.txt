@@ -69,3 +69,9 @@ neuron - simple computational unit; performs weighted sum on incoming signals,
 	- some neurons (feedback, hopfield networks) retain portion of previous activation
 threshold
 weight
+loss functions > options
+	which is best for task at hand
+	crossentropy
+optimizers > options
+	stochastic gradient descent (sgd) > adam, nadam
+
